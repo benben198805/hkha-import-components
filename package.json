@@ -1,0 +1,22 @@
+{
+  "name": "workshop-import-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"webpack-dev-server",
+    "build":"rm -rf ./dist && wepack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
