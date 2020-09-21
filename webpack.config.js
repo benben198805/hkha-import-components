@@ -8,7 +8,7 @@ module.exports={
     filename: './my-bundle.js'
   },
   module:{
-    loaders:[
+    rules:[
       { test:/\.jsx?$/, use:'babel-loader'}
     ]
   },
