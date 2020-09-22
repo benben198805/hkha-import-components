@@ -5,7 +5,7 @@ import { ShadowPanel } from 'workshop-hkha-components-test'
 
 const Container = ()=>
   <div>
-    <div>React Web Application</div>
+    <h2>React Web Application</h2>
     <ShadowPanel content='useShadowBox'></ShadowPanel>
   </div>
 
