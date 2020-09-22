@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { ShadowPanel } from 'workshop-hkha-components-test'
+import { ShadowPanel } from 'workshop-create-components-hkha'
 
 const Container = ()=>
   <div>
-    <h2>React Web Application</h2>
-    <ShadowPanel content='useShadowBox'></ShadowPanel>
+    <h2>Other React Web Application - To Import Components</h2>
+    <ShadowPanel></ShadowPanel>
   </div>
 
 ReactDOM.render(<Container></Container>, document.getElementById('root'))
